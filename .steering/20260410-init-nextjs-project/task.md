@@ -12,21 +12,21 @@
 
 ## フェーズ2: UI フレームワークセットアップ
 - [x] `npx shadcn-ui@latest init` を実行
-- [ ] 必要な基盤コンポーネントの追加 (button, card 等を想定)
+- [x] 必要な基盤コンポーネントの追加 (button, card 等を想定)
 
 ## フェーズ3: バックエンド連携セットアップ
-- [ ] Supabase 関連ライブラリをインストール
-  - [ ] `@supabase/supabase-js`, `@supabase/ssr`
-- [ ] `src/lib/supabase.ts` の作成（クライアント初期化）
-- [ ] `.env.local` の設定確認
+- [x] Supabase 関連ライブラリをインストール
+  - [x] `@supabase/supabase-js`, `@supabase/ssr`
+- [x] `src/lib/supabase.ts` の作成（クライアント初期化）
+- [x] `.env.local` の設定確認
 
 ## フェーズ4: ディレクトリ構造の整理
-- [ ] `src/services`, `src/types`, `src/hooks` ディレクトリの作成
-- [ ] `repository-structure.md` に基づいた整合性確認
+- [x] `src/services`, `src/types`, `src/hooks` ディレクトリの作成
+- [x] `repository-structure.md` に基づいた整合性確認
 
 ## フェーズ5: 品質チェックとデプロイ
-- [ ] ビルドが成功することを確認 (`npm run build`)
-- [ ] GitHub へのプッシュ
+- [x] ビルドが成功することを確認 (`npm run build`)
+- [x] GitHub へのプッシュ
 - [ ] Vercel デプロイ状況の確認
 
 ---
